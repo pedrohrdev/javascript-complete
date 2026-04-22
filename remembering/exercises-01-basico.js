@@ -7,7 +7,6 @@
 // console.log(sum) // 5 + 5 = 10
 //================================= */
 
-
 /* 2. Subtraction:
 
 // let num1 = 67;
@@ -24,14 +23,30 @@ const multiplication = num1 * num2;
 console.log(multiplication) // 10 * 2 = 20;
 // ============================= */
 
-// 4. Division:
+/* 4. Division:
 const n1 = 10;
 const n2 = 5;
 
 const division = n1 / n2;
 console.log(division) // 10 / 5 = 2
+//========================= */
 
-// 5. Verificar se número é par ou ímpar
+// 5. Check if the multiplication
+// of two numbers is even or odd:
+const n1 = 67;
+const n2 = 3;
+
+const multiplication = n1 * n2; // 67 * 3 = 201 <- odd
+
+if(multiplication % 2 === 0) {
+    console.log('Even')
+} else {
+    console.log('Odd')
+}
+
+
+// exercise done: Check if the multiplication of two numbers is even or odd
+
 // 6. Converter Celsius para Fahrenheit
 // 7. Encontrar maior entre dois números
 // 8. Encontrar maior entre três números

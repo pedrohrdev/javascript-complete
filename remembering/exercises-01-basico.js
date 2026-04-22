@@ -1,4 +1,12 @@
 // 1. Soma de dois números
+const num1 = 5;
+const num2 = 5;
+
+let sum = num1 + num2;
+console.log(sum) // 5 + 5 = 10
+//=================================
+
+
 // 2. Subtração
 // 3. Multiplicação
 // 4. Divisão

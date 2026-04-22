@@ -1,20 +1,30 @@
-// 1. Sum of two numbers:
+/* 1. Sum of two numbers:
 
 // const num1 = 5;
 // const num2 = 5;
 
 // let sum = num1 + num2;
 // console.log(sum) // 5 + 5 = 10
-//=================================
+//================================= */
 
 
-// 2. Subtraction
-let num1 = 67;
-let num2 = 66;
-let subtraction = num1 - num2;
-console.log(subtraction) // 67 - 66 = 1
+/* 2. Subtraction:
+
+// let num1 = 67;
+// let num2 = 66;
+// let subtraction = num1 - num2;
+// console.log(subtraction) // 67 - 66 = 1
+//================================= */
 
 // 3. Multiplicação
+
+const num1 = 10;
+const num2 = 2;
+const multiplication = num1 * num2;
+console.log(multiplication) // 10 * 2 = 20;
+// ============================= */
+
+
 // 4. Divisão
 // 5. Verificar se número é par ou ímpar
 // 6. Converter Celsius para Fahrenheit

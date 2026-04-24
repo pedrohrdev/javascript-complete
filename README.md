@@ -4,8 +4,11 @@ Este repositório contém meus estudos de JavaScript, desde o básico até conce
 
 ## 50 Exercícios de Lógica (NOVO!)
 Adicionei **50 exercícios práticos** para treinar lógica:
-- 🏁 **20 Fáceis**: Condicionais, loops simples, strings básicas.
-- 🔥 **30 Médios**: Arrays avançados, recursão, objetos, buscas.
+- 🏁 **20 Básicos**
+- 👍 **20 Intermediarios**
+- 📦🔤 **20 Arrays e Strings**
+- **20 Objetos e Funcoes**
+- **20 Mais avançados**
 
 **Como usar:**
 1. Abra `exercicios/index.html` no navegador.

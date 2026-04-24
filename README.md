@@ -2,8 +2,8 @@
 
 Este repositório contém meus estudos de JavaScript, desde o básico até conceitos mais avançados, com foco em lógica de programação.
 
-## 50 Exercícios de Lógica (NOVO!)
-Adicionei **50 exercícios práticos** para treinar lógica:
+## 100 Exercícios de Lógica (NOVO!)
+Adicionei **100 exercícios práticos** para treinar lógica:
 - 🏁 **20 Básicos**
 - 👍 **20 Intermediarios**
 - 📦🔤 **20 Arrays e Strings**

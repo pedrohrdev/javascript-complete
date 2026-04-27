@@ -3,12 +3,28 @@ for(let i = 1; i <= 10; i++) {
     console.log(i)
 } */
 
-// 22. Loop from 10 to 1
+/* 22. Loop from 10 to 1
 for(let i = 10; i >= 1; i--) {
     console.log(i);
+} */
+
+// 23. Sum from 1 to N
+let sum = 0;
+const n = 5;
+const numeroAnteriorDoN = n - 1;
+
+for( let numeroAtual = n - numeroAnteriorDoN; numeroAtual <= n; numeroAtual++) {
+
+    console.log(`Numero atual: ${numeroAtual}`)
+    console.log(`Sera feito: ${sum} + ${numeroAtual}`)
+    sum = sum + numeroAtual;
+    console.log(`Resultado: ${sum}`);
+
+    console.log('==========================================')
+
 }
 
-// 23. Soma de 1 até N
+
 // 24. Tabuada de um número
 // 25. Contar números pares até N
 // 26. Fatorial de um número

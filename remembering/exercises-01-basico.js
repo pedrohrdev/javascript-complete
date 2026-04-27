@@ -116,13 +116,28 @@ const cincoMinutos = 5; // em min
 const cincoMinutosEmSegundos = cincoMinutos * 60;
 console.log(cincoMinutosEmSegundos) */
 
-// 13. Convert hours to minutes;
+/* 13. Convert hours to minutes;
 const oneHour = 1;
 const oneHourInMinutes = oneHour * 60;
-console.log(oneHourInMinutes)
+console.log(oneHourInMinutes) */
+
+// 14. Check if the number is a multiple of 5.
+const number1 = 50;
+const number2 = 6;
+
+if(number1 % 5 === 0) {
+    console.log(`${number1} é multiplo de 5`)
+} else {
+    console.log(`${number1} não é multiplo de 5`)
+}
 
 
-// 14. Verificar se número é múltiplo de 5
+if(number2 % 5 === 0) {
+    console.log(`${number2} é multiplo de 5`)
+} else {
+    console.log(`${number2} não é multiplo de 5`)
+}
+
 // 15. Trocar valores entre duas variáveis
 // 16. Calcular idade a partir do ano de nascimento
 // 17. Verificar se número é divisível por 3 e 5

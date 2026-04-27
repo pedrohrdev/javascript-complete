@@ -111,12 +111,17 @@ const area = pi * (raio ** 2)
 
 console.log(area.toFixed(2)); */
 
-// 12. Convert minutos to seconds
+/* 12. Convert minutos to seconds
 const cincoMinutos = 5; // em min
 const cincoMinutosEmSegundos = cincoMinutos * 60;
-console.log(cincoMinutosEmSegundos)
+console.log(cincoMinutosEmSegundos) */
 
-// 13. Converter horas para minutos
+// 13. Convert hours to minutes;
+const oneHour = 1;
+const oneHourInMinutes = oneHour * 60;
+console.log(oneHourInMinutes)
+
+
 // 14. Verificar se número é múltiplo de 5
 // 15. Trocar valores entre duas variáveis
 // 16. Calcular idade a partir do ano de nascimento

@@ -191,12 +191,17 @@ const m = km * 1000;
 
 console.log(`${km} em metros é ${m}`) */
 
-// 19. Check if the number is greater than 100.
+/* 19. Check if the number is greater than 100.
 const number = 100.01;
 
 const isGreaterThan100 = number > 100 ? 'Greater' : 'Lower';
 
-console.log(isGreaterThan100);
-
+console.log(isGreaterThan100); */
 
 // 20. Calcular resto da divisão
+const n1 = 10;
+const n2 = 3;
+
+const restOfTheDivision = n1 % n2;
+
+console.log(restOfTheDivision);

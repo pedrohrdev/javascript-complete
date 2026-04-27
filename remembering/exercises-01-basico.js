@@ -121,7 +121,7 @@ const oneHour = 1;
 const oneHourInMinutes = oneHour * 60;
 console.log(oneHourInMinutes) */
 
-// 14. Check if the number is a multiple of 5.
+/* 14. Check if the number is a multiple of 5.
 const number1 = 50;
 const number2 = 6;
 
@@ -136,9 +136,22 @@ if(number2 % 5 === 0) {
     console.log(`${number2} é multiplo de 5`)
 } else {
     console.log(`${number2} não é multiplo de 5`)
-}
+} */
 
-// 15. Trocar valores entre duas variáveis
+// 15. 
+let variavelUm = 10;
+let variavelDois = 'Pedro';
+
+console.log(`Variavel 1 antes da troca: ${variavelUm}`);
+console.log(`Variavel 2 antes da troca: ${variavelDois}`);
+
+console.log('-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-');
+
+[variavelUm, variavelDois] = [variavelDois, variavelUm];
+
+console.log(`Variavel 1 depois da troca: ${variavelUm}`);
+console.log(`Variavel 2 depois da troca: ${variavelDois}`);
+
 // 16. Calcular idade a partir do ano de nascimento
 // 17. Verificar se número é divisível por 3 e 5
 // 18. Converter km para metros

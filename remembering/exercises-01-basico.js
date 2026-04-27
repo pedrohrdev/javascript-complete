@@ -64,7 +64,7 @@ console.log(`${celsius} celsius to fahrenheit: ${fahrenheit}F`)
 
 // console.log(maior) */
 
-// 8. Find the larger of three numbers
+/* 8. Find the larger of three numbers
 let maior;
 const n1 = 10
 const n2 = 15
@@ -78,9 +78,17 @@ if(n1 > n2 && n1 > n3) {
     maior = n3;
 }
 
-console.log(`Entre: ${n1}, ${n2}, ${n3} logico que o maior é ${maior}`)
+console.log(`Entre: ${n1}, ${n2}, ${n3} logico que o maior é ${maior}`) */
 
-// 9. Calcular média de 3 notas
+// 9. Calculate the average of three grades
+const nota1 = 8;
+const nota2 = 5;
+const nota3 = 7;
+
+const media = (nota1 + nota2 + nota3) / 3;
+
+console.log(`A media entre: ${nota1}, ${nota2}, ${nota3} é ${media.toFixed(2)}`)
+
 // 10. Verificar se número é positivo, negativo ou zero
 // 11. Calcular área de um círculo
 // 12. Converter minutos para segundos

@@ -51,20 +51,35 @@ const fahrenheit = (celsius * 1.8) + 32;
 console.log(`${celsius} celsius to fahrenheit: ${fahrenheit}F`)
 */
 
-// 7. Encontrar maior entre dois números
-let maior;
-let n1 = 10;
-let n2 = 200;
+/* // 7. Find the larger of two numbers
+// let maior;
+// let n1 = 10;
+// let n2 = 200;
 
-if(n1 > n2) {
+// if(n1 > n2) {
+//     maior = n1;
+// } else {
+//     maior = n2;
+// }
+
+// console.log(maior) */
+
+// 8. Find the larger of three numbers
+let maior;
+const n1 = 10
+const n2 = 15
+const n3 = 20;
+
+if(n1 > n2 && n1 > n3) {
     maior = n1;
-} else {
+} else if(n2 > n1 && n2 > n3) {
     maior = n2;
+} else {
+    maior = n3;
 }
 
-console.log(maior)
+console.log(`Entre: ${n1}, ${n2}, ${n3} logico que o maior é ${maior}`)
 
-// 8. Encontrar maior entre três números
 // 9. Calcular média de 3 notas
 // 10. Verificar se número é positivo, negativo ou zero
 // 11. Calcular área de um círculo

@@ -45,12 +45,25 @@ if(multiplication % 2 === 0) {
 }
 */
 
-// 6. Converter Celsius para Fahrenheit
+/* 6. Converter Celsius para Fahrenheit
 const celsius = 20;
 const fahrenheit = (celsius * 1.8) + 32;
 console.log(`${celsius} celsius to fahrenheit: ${fahrenheit}F`)
+*/
 
 // 7. Encontrar maior entre dois números
+let maior;
+let n1 = 10;
+let n2 = 200;
+
+if(n1 > n2) {
+    maior = n1;
+} else {
+    maior = n2;
+}
+
+console.log(maior)
+
 // 8. Encontrar maior entre três números
 // 9. Calcular média de 3 notas
 // 10. Verificar se número é positivo, negativo ou zero

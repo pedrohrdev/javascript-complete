@@ -1,9 +1,13 @@
-// 21. Loop de 1 a 10
+/* 21. Loop from 1 to 10
 for(let i = 1; i <= 10; i++) {
     console.log(i)
+} */
+
+// 22. Loop from 10 to 1
+for(let i = 10; i >= 1; i--) {
+    console.log(i);
 }
 
-// 22. Loop de 10 a 1
 // 23. Soma de 1 até N
 // 24. Tabuada de um número
 // 25. Contar números pares até N

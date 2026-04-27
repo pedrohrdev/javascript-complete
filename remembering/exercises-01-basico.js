@@ -198,10 +198,10 @@ const isGreaterThan100 = number > 100 ? 'Greater' : 'Lower';
 
 console.log(isGreaterThan100); */
 
-// 20. Calcular resto da divisão
+/* 20. Calcular resto da divisão
 const n1 = 10;
 const n2 = 3;
 
 const restOfTheDivision = n1 % n2;
 
-console.log(restOfTheDivision);
+console.log(restOfTheDivision); */

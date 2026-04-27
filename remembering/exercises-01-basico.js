@@ -103,15 +103,19 @@ if(number > 0) {
 
 console.log(estadoNumber) */
 
-// 11. Calculate the area of ​​a circle.
+/* 11. Calculate the area of ​​a circle.
 const pi = 3.1416;
 const meioRaio = 10; // <- cm
 const raio = meioRaio * 2;
 const area = pi * (raio ** 2)
 
-console.log(area.toFixed(2));
+console.log(area.toFixed(2)); */
 
-// 12. Converter minutos para segundos
+// 12. Convert minutos to seconds
+const cincoMinutos = 5; // em min
+const cincoMinutosEmSegundos = cincoMinutos * 60;
+console.log(cincoMinutosEmSegundos)
+
 // 13. Converter horas para minutos
 // 14. Verificar se número é múltiplo de 5
 // 15. Trocar valores entre duas variáveis

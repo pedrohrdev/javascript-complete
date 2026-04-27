@@ -163,7 +163,7 @@ const age = currentYear - dateOfBirth;
 
 console.log(`You're ${age} years old`) */
 
-// 17. Check if the number is divisible by 3 and 5.
+/* 17. Check if the number is divisible by 3 and 5.
 let number = 4;
 let isDivisibleBy3 = (number % 3 === 0);
 let isDivisibleBy5 = (number % 5 === 0);
@@ -183,9 +183,13 @@ if(isDivisibleBy3 && isDivisibleBy5) {
 } else {
     console.log(`${number} não é divisivel por 3 nem por 5`)
 
-}
+} */
 
+// 18. Convert km to m
+const km = 1
+const m = km * 1000;
 
-// 18. Converter km para metros
+console.log(`${km} em metros é ${m}`)
+
 // 19. Verificar se número é maior que 100
 // 20. Calcular resto da divisão

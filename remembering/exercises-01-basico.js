@@ -152,16 +152,40 @@ console.log('-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-');
 console.log(`Variavel 1 depois da troca: ${variavelUm}`);
 console.log(`Variavel 2 depois da troca: ${variavelDois}`); */
 
-// 16 Calculate identity from the year of birth
+/* 16 Calculate identity from the year of birth:
+
+
 const data = new Date();
 const currentYear = data.getFullYear();
 const dateOfBirth = 2010;
 
 const age = currentYear - dateOfBirth;
 
-console.log(`You're ${age} years old`)
+console.log(`You're ${age} years old`) */
 
-// 17. Verificar se número é divisível por 3 e 5
+// 17. Check if the number is divisible by 3 and 5.
+let number = 4;
+let isDivisibleBy3 = (number % 3 === 0);
+let isDivisibleBy5 = (number % 5 === 0);
+
+if(isDivisibleBy3 && isDivisibleBy5) {
+    
+    console.log(`${number} é divisivel por 3 e 5`);
+
+} else if(isDivisibleBy3) {
+
+    console.log(`${number} é divisivel por 3 porem nao por 5`);
+
+} else if(isDivisibleBy5) {
+
+    console.log(`${number} nao é divisel por 3, porem é divisivel por 5`)
+
+} else {
+    console.log(`${number} não é divisivel por 3 nem por 5`)
+
+}
+
+
 // 18. Converter km para metros
 // 19. Verificar se número é maior que 100
 // 20. Calcular resto da divisão

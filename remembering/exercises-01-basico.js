@@ -185,11 +185,18 @@ if(isDivisibleBy3 && isDivisibleBy5) {
 
 } */
 
-// 18. Convert km to m
+/* 18. Convert km to m
 const km = 1
 const m = km * 1000;
 
-console.log(`${km} em metros é ${m}`)
+console.log(`${km} em metros é ${m}`) */
 
-// 19. Verificar se número é maior que 100
+// 19. Check if the number is greater than 100.
+const number = 100.01;
+
+const isGreaterThan100 = number > 100 ? 'Greater' : 'Lower';
+
+console.log(isGreaterThan100);
+
+
 // 20. Calcular resto da divisão

@@ -89,7 +89,7 @@ const media = (nota1 + nota2 + nota3) / 3;
 
 console.log(`A media entre: ${nota1}, ${nota2}, ${nota3} é ${media.toFixed(2)}`) */
 
-// 10. Verificar se número é positivo, negativo ou zero
+/* 10. Check if the number is positive, negative, or zero.
 const number = -2;
 let estadoNumber;
 
@@ -101,9 +101,16 @@ if(number > 0) {
     estadoNumber = 'negativo'
 }
 
-console.log(estadoNumber)
+console.log(estadoNumber) */
 
-// 11. Calcular área de um círculo
+// 11. Calculate the area of ​​a circle.
+const pi = 3.1416;
+const meioRaio = 10; // <- cm
+const raio = meioRaio * 2;
+const area = pi * (raio ** 2)
+
+console.log(area.toFixed(2));
+
 // 12. Converter minutos para segundos
 // 13. Converter horas para minutos
 // 14. Verificar se número é múltiplo de 5

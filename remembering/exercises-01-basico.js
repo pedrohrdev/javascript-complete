@@ -80,16 +80,29 @@ if(n1 > n2 && n1 > n3) {
 
 console.log(`Entre: ${n1}, ${n2}, ${n3} logico que o maior é ${maior}`) */
 
-// 9. Calculate the average of three grades
+/* 9. Calculate the average of three grades
 const nota1 = 8;
 const nota2 = 5;
 const nota3 = 7;
 
 const media = (nota1 + nota2 + nota3) / 3;
 
-console.log(`A media entre: ${nota1}, ${nota2}, ${nota3} é ${media.toFixed(2)}`)
+console.log(`A media entre: ${nota1}, ${nota2}, ${nota3} é ${media.toFixed(2)}`) */
 
 // 10. Verificar se número é positivo, negativo ou zero
+const number = -2;
+let estadoNumber;
+
+if(number > 0) {
+    estadoNumber = 'positivo';
+} else if(number === 0) {
+    estadoNumber = 'zero'
+} else {
+    estadoNumber = 'negativo'
+}
+
+console.log(estadoNumber)
+
 // 11. Calcular área de um círculo
 // 12. Converter minutos para segundos
 // 13. Converter horas para minutos

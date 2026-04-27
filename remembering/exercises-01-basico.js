@@ -31,7 +31,7 @@ const division = n1 / n2;
 console.log(division) // 10 / 5 = 2
 //========================= */
 
-// 5. Check if the multiplication
+/* 5. Check if the multiplication
 // of two numbers is even or odd:
 const n1 = 67;
 const n2 = 3;
@@ -43,11 +43,13 @@ if(multiplication % 2 === 0) {
 } else {
     console.log('Odd')
 }
-
-
-// exercise done: Check if the multiplication of two numbers is even or odd
+*/
 
 // 6. Converter Celsius para Fahrenheit
+const celsius = 20;
+const fahrenheit = (celsius * 1.8) + 32;
+console.log(`${celsius} celsius to fahrenheit: ${fahrenheit}F`)
+
 // 7. Encontrar maior entre dois números
 // 8. Encontrar maior entre três números
 // 9. Calcular média de 3 notas

@@ -138,7 +138,7 @@ if(number2 % 5 === 0) {
     console.log(`${number2} não é multiplo de 5`)
 } */
 
-// 15. 
+/* 15. Swapping values ​​between two variables
 let variavelUm = 10;
 let variavelDois = 'Pedro';
 
@@ -150,9 +150,17 @@ console.log('-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-');
 [variavelUm, variavelDois] = [variavelDois, variavelUm];
 
 console.log(`Variavel 1 depois da troca: ${variavelUm}`);
-console.log(`Variavel 2 depois da troca: ${variavelDois}`);
+console.log(`Variavel 2 depois da troca: ${variavelDois}`); */
 
-// 16. Calcular idade a partir do ano de nascimento
+// 16 Calculate identity from the year of birth
+const data = new Date();
+const currentYear = data.getFullYear();
+const dateOfBirth = 2010;
+
+const age = currentYear - dateOfBirth;
+
+console.log(`You're ${age} years old`)
+
 // 17. Verificar se número é divisível por 3 e 5
 // 18. Converter km para metros
 // 19. Verificar se número é maior que 100

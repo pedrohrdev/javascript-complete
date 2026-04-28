@@ -24,15 +24,23 @@ for( let numeroAtual = n - numeroAnteriorDoN; numeroAtual <= n; numeroAtual++) {
 
 } */
 
-// 24. Multiplication table of a number
+/* 24. Multiplication table of a number
 let numeroDaTabuada = 7;
 for( let i = 0; i <= 10; i++) {
 
     console.log(numeroDaTabuada * i)
 
+} */
+
+// 25. Count even numbers up to N
+let n = 20;
+
+for( let i = 0; i <= n; i++) {
+    if(i % 2 === 0) {
+        console.log(i)
+    }
 }
 
-// 25. Contar números pares até N
 // 26. Fatorial de um número
 // 27. Sequência de Fibonacci (até N)
 // 28. Verificar número primo

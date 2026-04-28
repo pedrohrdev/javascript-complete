@@ -8,7 +8,7 @@ for(let i = 10; i >= 1; i--) {
     console.log(i);
 } */
 
-// 23. Sum from 1 to N
+/* 23. Sum from 1 to N
 let sum = 0;
 const n = 5;
 const numeroAnteriorDoN = n - 1;
@@ -22,10 +22,16 @@ for( let numeroAtual = n - numeroAnteriorDoN; numeroAtual <= n; numeroAtual++) {
 
     console.log('==========================================')
 
+} */
+
+// 24. Multiplication table of a number
+let numeroDaTabuada = 7;
+for( let i = 0; i <= 10; i++) {
+
+    console.log(numeroDaTabuada * i)
+
 }
 
-
-// 24. Tabuada de um número
 // 25. Contar números pares até N
 // 26. Fatorial de um número
 // 27. Sequência de Fibonacci (até N)
@@ -41,4 +47,4 @@ for( let numeroAtual = n - numeroAnteriorDoN; numeroAtual <= n; numeroAtual++) {
 // 37. Simular cara ou coroa
 // 38. Encontrar menor número
 // 39. Somar números de um array
-// 40. Média de um array
+// 40. Média de um array 

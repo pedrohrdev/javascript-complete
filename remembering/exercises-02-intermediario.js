@@ -32,16 +32,26 @@ for( let i = 0; i <= 10; i++) {
 
 } */
 
-// 25. Count even numbers up to N
+/* 25. Count even numbers up to N
 let n = 20;
 
 for( let i = 0; i <= n; i++) {
     if(i % 2 === 0) {
         console.log(i)
     }
-}
+} */
 
 // 26. Fatorial de um número
+let numero = 10;
+let resultado = numero;
+
+for(let i = numero - 1; i >= 1; i--) {
+
+    resultado = resultado * i;
+    console.log(resultado)
+
+}
+
 // 27. Sequência de Fibonacci (até N)
 // 28. Verificar número primo
 // 29. Contar quantos divisores um número tem

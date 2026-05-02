@@ -41,7 +41,7 @@ for( let i = 0; i <= n; i++) {
     }
 } */
 
-// 26. Fatorial de um número
+/* 26. Fatorial de um número
 let numero = 10;
 let resultado = numero;
 
@@ -50,9 +50,27 @@ for(let i = numero - 1; i >= 1; i--) {
     resultado = resultado * i;
     console.log(resultado)
 
-}
+} */
 
 // 27. Sequência de Fibonacci (até N)
+// Próximo termo é a soma do anterior 
+
+let termo1 = 0;
+let termo2 = 1;
+let proximotermo = 0;
+
+console.log(termo1);
+console.log(termo2);
+
+for(let i = 2; i <= 10; i++) {
+
+    proximotermo = termo1 + termo2; // primeira iteracao: 0 + 1 = 1
+    console.log(proximotermo);
+
+    termo1 = termo2; // termo 1 agora é 1,
+    termo2 = proximotermo; // termo 2 é igual a proximotermo(que fez a soma de termo1 + termo 2), logo proximotermo = 1
+}
+
 // 28. Verificar número primo
 // 29. Contar quantos divisores um número tem
 // 30. Somar apenas números pares até N

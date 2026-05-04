@@ -135,7 +135,7 @@ for(let i = 2; i <= n; i += 2) {
 }
 console.log(`Soma total dos pares até ${n}: ${soma}`); */
 
-// 31. Somar apenas números ímpares até N
+/* 31. Somar apenas números ímpares até N
 let n = 10;
 let somaImpares = 0;
 
@@ -146,9 +146,23 @@ for(let i = 1; i <= n; i += 2) {
 
 }
 
-console.log(`Soma total de impares até ${n} = ${somaImpares}`)
+console.log(`Soma total de impares até ${n} = ${somaImpares}`) */
 
 // 32. Encontrar maior número em loop
+let numeros = [3, 7, 1, 9, 4];
+
+let atualMaior = numeros[0];
+
+numeros.forEach(numero => {
+    
+    if(numero > atualMaior) {
+        atualMaior = numero;
+    }
+
+});
+
+console.log(`Atual maior numero é ${atualMaior}`)
+
 // 33. Contar números negativos em lista
 // 34. Inverter um número (ex: 123 → 321)
 // 35. Verificar palíndromo numérico

@@ -52,7 +52,7 @@ for(let i = numero - 1; i >= 1; i--) {
 
 } */
 
-// 27. Sequência de Fibonacci (até N)
+/* 27. Sequência de Fibonacci (até N)
 // Próximo termo é a soma do anterior 
 
 let termo1 = 0;
@@ -69,9 +69,50 @@ for(let i = 2; i <= 10; i++) {
 
     termo1 = termo2; // termo 1 agora é 1,
     termo2 = proximotermo; // termo 2 é igual a proximotermo(que fez a soma de termo1 + termo 2), logo proximotermo = 1
-}
+} */
 
 // 28. Verificar número primo
+
+/*
+
+O que é um número primo?
+É um número que só é divisível por 1 e por ele mesmo.
+Então a pergunta que seu código precisa responder é:
+
+"Esse número tem algum divisor além de 1 e dele mesmo?"
+
+
+Tenta responder essas perguntas antes de codar:
+
+Se eu quero saber se o número 7 é primo, por quais números eu precisaria testar se ele é divisível?
+Quando eu posso parar de testar? (não precisa testar até o infinito...)
+Se eu achar qualquer divisor no meio do caminho, o que isso significa para o resultado?
+
+
+let numero = 7;
+let ehPrimo = true
+
+for(let i = 2; i < numero; i++) {
+
+    // Se o numero for divisivel
+    // por ele mesmo            E o numero for divisivel por 1
+
+    if(numero % i === 0) {
+        ehPrimo = false;
+    }
+
+}
+
+if(ehPrimo) {
+    console.log(`${numero} é primo`)
+} else {
+    console.log(`${numero} nao é primo`)
+}
+
+
+*/
+
+
 // 29. Contar quantos divisores um número tem
 // 30. Somar apenas números pares até N
 // 31. Somar apenas números ímpares até N

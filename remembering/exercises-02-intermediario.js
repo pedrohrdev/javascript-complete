@@ -163,7 +163,7 @@ numeros.forEach(numero => {
 
 console.log(`Atual maior numero é ${atualMaior}`) */
 
-// 33. Contar números negativos em lista
+/* 33. Contar números negativos em lista
 let numeros = [1, 65, 2, -3, 2, 1900, -67, -8];
 
 let negativos = [];
@@ -180,9 +180,21 @@ let quantosNegativosTemNaLista = negativos.length;
 
 console.log(numeros);
 console.log('==========================');
-console.log(`A lista tem ${quantosNegativosTemNaLista} numeros negativos, e sao estes: ${negativos}`)
+console.log(`A lista tem ${quantosNegativosTemNaLista} numeros negativos, e sao estes: ${negativos}`) */
 
-// 34. Inverter um número (ex: 123 → 321)
+// 34. Inverter um número (ex: 123 → 321);
+// pensando:
+//  transformar 123 em strig('123');
+//  depois pegar o ultimo indice e colocar em um array,
+//  tirar o ultimo indice, e fazer isto ate tirar todos do '123'e
+//  colocar do ultimo pro primeiro no array, depois transformar em numero
+
+function invertNumber(n) {
+    return Number(String(n).split('').reverse().join(''));
+};
+
+console.log(invertNumber(76))
+
 // 35. Verificar palíndromo numérico
 // 36. Gerar números aleatórios
 // 37. Simular cara ou coroa

@@ -124,6 +124,17 @@ for(let i = 1; i <= numero; i++) {
 console.log(divisores) */
 
 // 30. Somar apenas números pares até N
+let n = 6;
+let soma = 0;
+
+for(let i = 2; i <= n; i += 2) {
+
+    soma += i;
+    console.log(`Somando ${i} -> acumulado: ${soma}`)
+
+}
+console.log(`Soma total dos pares até ${n}: ${soma}`);
+
 // 31. Somar apenas números ímpares até N
 // 32. Encontrar maior número em loop
 // 33. Contar números negativos em lista

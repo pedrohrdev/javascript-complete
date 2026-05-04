@@ -148,7 +148,7 @@ for(let i = 1; i <= n; i += 2) {
 
 console.log(`Soma total de impares até ${n} = ${somaImpares}`) */
 
-// 32. Encontrar maior número em loop
+/* 32. Encontrar maior número em loop
 let numeros = [3, 7, 1, 9, 4];
 
 let atualMaior = numeros[0];
@@ -161,9 +161,27 @@ numeros.forEach(numero => {
 
 });
 
-console.log(`Atual maior numero é ${atualMaior}`)
+console.log(`Atual maior numero é ${atualMaior}`) */
 
 // 33. Contar números negativos em lista
+let numeros = [1, 65, 2, -3, 2, 1900, -67, -8];
+
+let negativos = [];
+
+numeros.forEach(numero => {
+
+    if(numero < 0) {
+        negativos.push(numero);
+    }
+    
+});
+
+let quantosNegativosTemNaLista = negativos.length;
+
+console.log(numeros);
+console.log('==========================');
+console.log(`A lista tem ${quantosNegativosTemNaLista} numeros negativos, e sao estes: ${negativos}`)
+
 // 34. Inverter um número (ex: 123 → 321)
 // 35. Verificar palíndromo numérico
 // 36. Gerar números aleatórios

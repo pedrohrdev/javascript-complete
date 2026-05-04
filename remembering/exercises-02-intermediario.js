@@ -71,9 +71,7 @@ for(let i = 2; i <= 10; i++) {
     termo2 = proximotermo; // termo 2 é igual a proximotermo(que fez a soma de termo1 + termo 2), logo proximotermo = 1
 } */
 
-// 28. Verificar número primo
-
-/*
+/* 28. Verificar número primo
 
 O que é um número primo?
 É um número que só é divisível por 1 e por ele mesmo.
@@ -112,8 +110,19 @@ if(ehPrimo) {
 
 */
 
+/* 29. Contar quantos divisores um número tem
+let numero = 10;
+let divisores = []
 
-// 29. Contar quantos divisores um número tem
+for(let i = 1; i <= numero; i++) {
+
+    if(numero % i === 0) {
+        divisores.push(i)
+    }
+
+}
+console.log(divisores) */
+
 // 30. Somar apenas números pares até N
 // 31. Somar apenas números ímpares até N
 // 32. Encontrar maior número em loop

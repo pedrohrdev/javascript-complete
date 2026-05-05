@@ -182,7 +182,7 @@ console.log(numeros);
 console.log('==========================');
 console.log(`A lista tem ${quantosNegativosTemNaLista} numeros negativos, e sao estes: ${negativos}`) */
 
-// 34. Inverter um número (ex: 123 → 321);
+/* 34. Inverter um número (ex: 123 → 321);
 // pensando:
 //  transformar 123 em strig('123');
 //  depois pegar o ultimo indice e colocar em um array,
@@ -193,9 +193,23 @@ function invertNumber(n) {
     return Number(String(n).split('').reverse().join(''));
 };
 
-console.log(invertNumber(76))
+console.log(invertNumber(76)) */
 
 // 35. Verificar palíndromo numérico
+let numero = 12321;
+
+function invertNumber(n) {
+    return Number(String(n).split('').reverse().join(''));
+};
+
+if(invertNumber(numero) === numero) {
+    console.log(`${numero} é um palíndromo numérico`)
+} else {
+    console.log(`${numero} não é um palíndromo numérico`)
+}
+
+
+
 // 36. Gerar números aleatórios
 // 37. Simular cara ou coroa
 // 38. Encontrar menor número

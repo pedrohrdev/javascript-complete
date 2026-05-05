@@ -241,4 +241,21 @@ numeros.forEach(numero => {
 
 console.log(soma) */
 
-// 40. Média de um array 
+/* 40. Média de um array 
+let numeros = [6, 3, 9, 7];
+let somaTotal = 0;
+let media = 0;
+
+numeros.forEach(numero => {
+
+    somaTotal += numero;
+
+})
+
+media = somaTotal / numeros.length;
+
+console.log(`A media entre: 
+
+    ${numeros}, é ${media}
+
+`) */

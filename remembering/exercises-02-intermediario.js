@@ -208,10 +208,13 @@ if(invertNumber(numero) === numero) {
     console.log(`${numero} não é um palíndromo numérico`)
 } */
 
-// 36. Gerar números aleatórios
-console.log(parseInt(Math.random() * 100))
+/* 36. Gerar números aleatórios
+console.log(parseInt(Math.random() * 100)) */
 
 // 37. Simular cara ou coroa
+let resultado = Math.random() < 0.5 ? 'cara' : 'coroa'; 
+console.log(resultado);
+
 // 38. Encontrar menor número
 // 39. Somar números de um array
 // 40. Média de um array 

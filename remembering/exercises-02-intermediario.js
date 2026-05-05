@@ -215,7 +215,7 @@ console.log(parseInt(Math.random() * 100)) */
 let resultado = Math.random() < 0.5 ? 'cara' : 'coroa'; 
 console.log(resultado); */
 
-// 38. Encontrar menor número
+/* 38. Encontrar menor número
 let numeros = [2, 67, 89, 91, 5];
 let menorNumero = numeros[0];
 
@@ -227,7 +227,18 @@ numeros.forEach(numero => {
 
 })
 
-console.log(menorNumero)
+console.log(menorNumero) */
 
-// 39. Somar números de um array
+/* 39. Somar números de um array
+let numeros = [1, 2, 3, 4, 5, 6, 7, 8];
+let soma = 0;
+
+numeros.forEach(numero => {
+
+    soma += numero;
+
+});
+
+console.log(soma) */
+
 // 40. Média de um array 

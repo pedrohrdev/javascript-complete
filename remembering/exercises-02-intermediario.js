@@ -211,10 +211,23 @@ if(invertNumber(numero) === numero) {
 /* 36. Gerar números aleatórios
 console.log(parseInt(Math.random() * 100)) */
 
-// 37. Simular cara ou coroa
+/*37. Simular cara ou coroa
 let resultado = Math.random() < 0.5 ? 'cara' : 'coroa'; 
-console.log(resultado);
+console.log(resultado); */
 
 // 38. Encontrar menor número
+let numeros = [2, 67, 89, 91, 5];
+let menorNumero = numeros[0];
+
+numeros.forEach(numero => {
+
+    if(numero < menorNumero) {
+        menorNumero = numero;
+    }
+
+})
+
+console.log(menorNumero)
+
 // 39. Somar números de um array
 // 40. Média de um array 

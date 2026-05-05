@@ -195,7 +195,7 @@ function invertNumber(n) {
 
 console.log(invertNumber(76)) */
 
-// 35. Verificar palíndromo numérico
+/* 35. Verificar palíndromo numérico
 let numero = 12321;
 
 function invertNumber(n) {
@@ -206,11 +206,11 @@ if(invertNumber(numero) === numero) {
     console.log(`${numero} é um palíndromo numérico`)
 } else {
     console.log(`${numero} não é um palíndromo numérico`)
-}
-
-
+} */
 
 // 36. Gerar números aleatórios
+console.log(parseInt(Math.random() * 100))
+
 // 37. Simular cara ou coroa
 // 38. Encontrar menor número
 // 39. Somar números de um array
